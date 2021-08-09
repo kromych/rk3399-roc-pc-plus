@@ -1,0 +1,8 @@
+[submodule "firefly-linux"]
+	path = firefly-linux
+	url = https://gitlab.com/firefly-linux/kernel.git
+	branch = rk3399/firefly
+[submodule "rockchip-linux"]
+	path = rockchip-linux
+	url = https://github.com/rockchip-linux/kernel.git
+	branch = stable-4.4-rk3399-linux

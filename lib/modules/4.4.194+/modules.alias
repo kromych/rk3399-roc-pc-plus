@@ -1,0 +1,16 @@
+# Aliases extracted from modules themselves.
+alias virtio:d00000004v* virtio_rng
+alias virtio:d00000003v* virtio_console
+alias virtio:d00000002v* virtio_blk
+alias virtio:d00000008v* virtio_scsi
+alias usb:v07B8p8179d*dc*dsc*dp*ic*isc*ip*in* 8188eu
+alias usb:v0BDAp0179d*dc*dsc*dp*ic*isc*ip*in* 8188eu
+alias usb:v0BDAp8179d*dc*dsc*dp*ic*isc*ip*in* 8188eu
+alias virtio:d00000001v* virtio_net
+alias of:N*T*Cvirtio,mmio* virtio_mmio
+alias pci:v00001AF4d*sv*sd*bc*sc*i* virtio_pci
+alias virtio:d00000005v* virtio_balloon
+alias virtio:d00000012v* virtio_input
+alias devname:vhost-net vhost_net
+alias char-major-10-238 vhost_net
+alias virtio:d00000013v* vmw_vsock_virtio_transport

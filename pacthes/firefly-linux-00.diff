@@ -1,0 +1,25 @@
+diff --git a/Makefile b/Makefile
+index 9ca1a4e00239..de8022c7e8ae 100644
+--- a/Makefile
++++ b/Makefile
+@@ -320,7 +320,7 @@ CONFIG_SHELL := $(shell if [ -x "$$BASH" ]; then echo $$BASH; \
+ 
+ HOSTCC       = gcc
+ HOSTCXX      = g++
+-HOSTCFLAGS   := -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu89
++HOSTCFLAGS   := -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -std=gnu89 -fcommon
+ HOSTCXXFLAGS = -O2
+ 
+ # Decide whether to build built-in, modular, or both.
+@@ -416,6 +416,11 @@ KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
+ 		   -fno-strict-aliasing -fno-common \
+ 		   -Werror-implicit-function-declaration \
+ 		   -Wno-format-security \
++		   -Wno-format-truncation -Wno-int-in-bool-context -Wno-duplicate-decl-specifier \
++		   -Wno-memset-elt-size -Wno-misleading-indentation -Wno-tautological-compare \
++		   -Wno-format-overflow -Wno-pointer-compare \
++		   -Wno-zero-length-bounds -Wno-array-bounds \
++		   -Wno-restrict -Wno-stringop-overflow \
+ 		   -std=gnu89 $(call cc-option,-fno-PIE)
+ 
+ 

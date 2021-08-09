@@ -1,0 +1,7 @@
+lib/firmware
+lib/modules/4.4.194+/build
+lib/modules/4.4.194+/source
+lib/*.img
+out
+update.img
+rootfs.img
