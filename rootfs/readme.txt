@@ -46,6 +46,12 @@ rm /usr/lib/systemd/system/systemd-remount-fs.service
 echo ubuntu-firefly > /etc/hostname
 echo "127.0.0.1 ubuntu-firefly" >> /etc/hosts
 
+apt-get install network-manager
+
+#nmcli d
+#nmcli r wifi on
+#nmcli d wifi connect WIFI-NAME password PASSWORD
+
 useradd -s '/bin/bash' -m -G adm,sudo firefly
 passwd firefly
 passwd root
