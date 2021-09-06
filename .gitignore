@@ -1,7 +1,9 @@
-lib/firmware
-lib/modules/4.4.194+/build
-lib/modules/4.4.194+/source
-lib/*.img
+rootfs/lib/firmware
+rootfs/lib/modules/4.4.194+/build
+rootfs/lib/modules/4.4.194+/source
+rootfs/*.img
+rootfs_mnt
+temp/*
 out
 update.img
 rootfs.img

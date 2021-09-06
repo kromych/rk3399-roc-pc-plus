@@ -8,3 +8,4 @@ Refer to these links for more:
  * https://www.stationpc.com/portal.php?mod=view&aid=1
  * https://gitlab.com/firefly-linux
  * https://github.com/rockchip-linux/
+ * https://github.com/ayufan-rock64
